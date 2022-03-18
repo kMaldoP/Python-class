@@ -1,5 +1,5 @@
 
-from sciencefiction import *
+from my_pkg.Sciencefiction import ScienceStory
 
 print("Welcome to the big game of madlibs")
 name = input("What is your name?    ")
@@ -11,3 +11,7 @@ print("              -----LETS BEGIN-----           ")
 input("Press enter to continue")
 print("Choose a story!")
 choice = input("1)Science fiction \n2)Western \n3)Spanish Romance  ")
+
+while True:
+    if choice == 1 or "1":
+        ScienceStory(name, name2, name3)
