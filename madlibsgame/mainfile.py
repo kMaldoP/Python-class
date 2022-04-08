@@ -12,6 +12,6 @@ input("Press enter to continue")
 print("Choose a story!")
 choice = input("1)Science fiction \n2)Western \n3)Spanish Romance  ")
 
-while True:
+while True:  # when completed, this if statement will direct user choice to a corresponding module with the genre of story
     if choice == 1 or "1":
         ScienceStory(name, name2, name3)

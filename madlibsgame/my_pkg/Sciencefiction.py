@@ -1,13 +1,32 @@
-def ScienceStory(name1, name2, name3):
-    print("Science Ficrtion it is! lets get some info first...")
-    verb = input("enter a verb")
-    adjective = input("now enter an adjective")
-    noun = input(" Now a noun")
-    object = input("pick an object")
+from os import name
+
+
+
+def ScienceStory(name1, name2, name3):   #function takes name from mainfile.py and creates story using all input variables
+    print("Science Fiction it is! lets get some info first...")
+    verb = input("enter a verb  ")
+    adjective = input("now enter an adjective   ")
+    noun = input(" Now a noun   ")
+    thing = input("pick an object   ")
+
     print("That should be enough to get started and we can figure out the rest as we go..")
+    
     input("Press enter to continue")
     
-    print(f"A long time ago, in the far off galaxy of {noun}  was the glorious nation of the order of the {adjective}. This kingdom was ruled by {name1} A once prosperous nation that was know for its ability to {verb} prosperity for every man woman and child. In the days since the great {object} war of 2376, the world has never been the same….")
-    verb2 = input("enter a verb")
-    adjective2 = input("now enter an adjective")
-    noun2 = input(" Now a noun")
+    print(f"A long time ago, in the far off galaxy of {noun}  was the glorious nation of the order of the {adjective}. This kingdom was ruled by {name1} A once prosperous nation that was know for its ability to {verb} prosperity for every man woman and child. In the days since the great {thing} war of 2376, the world has never been the same….")
+
+    adverb = input("enter an adverb:    ")
+    verb2 = input("enter a verb ")
+    adjective2 = input("now enter an adjective  ")
+    noun2 = input(" Now a noun  ")
+    print(f"Yet life was not the same for everyone in the glorious nation of the order of the {noun}. The discovery of the new element known as {noun2}. It was originally created by the brilliant scientist Dr.{name2} as a means of energy and {adverb}. Through dark forces however it was discovered that {noun2} can become one of the most devastating weapons in the galaxy because of its ability to {verb2} {adjective2} planets. like a deathst....you get it. ")
+
+    input = ("Press enter to continue   ")
+    
+    verb3 = input("Enter another verb  ")
+    noun3 = input("Enter another noun   ")
+    adjective3 = input("Enter another adjective ")
+    pastry = input("Now for the wildcard, enter your favorite pastry:   ")
+    print(f"With the birth of {noun2} came a great struggle. The ruler of {noun}, {name}, was just and fair. and trying their best to ensure that {noun2} would not fall into the wrong hands. Dr.{name2}'s creation was just too powerful....\n    for the evil {name3} sought fit to lay waste to the land for their own personal gain. \n A terrible {pastry} space battle ensued, with {name} and the order of the {adjective} fighting to stem the advance of {name3} and the evil that followed.\n Using a {adjective3} trident, {name} was able to use the full energy of {noun2} to stem the tide of the evil {name3} and drive the forces back. with the the glorious nation of {adjective} preserved, the order of the {noun} safe, and free of the torment of the {name3}, the galaxy {noun} is able to purse a life of freedom, liberty, and {verb3}, the pursuit of {noun3}")
+    print("             THE END         ")
+
