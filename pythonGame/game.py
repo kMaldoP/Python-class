@@ -6,7 +6,11 @@ from my_pkg.morning_module import total, Avo_toast, smoothie, burrito, coffee, e
 from my_pkg.afternoon_module import * 
 
 
-
+class total:
+    def __init__(self, total):
+        total = 60
+        self.total = total
+        
 
 
 name = input("Welcome to the Millenial Nightmare. What is your name?")

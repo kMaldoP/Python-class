@@ -4,10 +4,10 @@ from my_pkg.midday_module import big_tipper, cartow, catch_Happy_hour, flat_tire
 from my_pkg.morning_module import total, Avo_toast, smoothie, burrito, coffee, energy_drink, eat_at_work
 from my_pkg.afternoon_module import *
 
-class MakeChoice:
-    def __init__(self, total, choice):
+class total:
+    def __init__(self, total):
+        total = 60
         self.total = total
-        self.choice = choice
         
 
 def choose(self, choice):
